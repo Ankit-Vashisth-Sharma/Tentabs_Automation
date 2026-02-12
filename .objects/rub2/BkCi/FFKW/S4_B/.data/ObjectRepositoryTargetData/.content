@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PqW1cP0urkCh-njOC6Nrtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/account" CVScreenId="21e43f36-aa93-47cb-a83c-882329689466" CvTextArea="251, 472, 50, 17" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="217, 460, 268, 39" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Logout' tag='A' /&gt;" Guid="ece12625-5315-4fcd-8dac-28d8d5048858" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7059c4c247c6302789118d4ca846ac09.jpg" xmlns="">0oXEn0lFsQUG2FS-_Nqr9UA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

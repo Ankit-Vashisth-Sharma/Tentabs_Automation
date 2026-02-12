@@ -1,0 +1,6 @@
+{
+  "Name": "FridayPPT",
+  "ProjectType": "Tests",
+  "Description": "for friday ppt",
+  "MainFile": "Main.xaml"
+}

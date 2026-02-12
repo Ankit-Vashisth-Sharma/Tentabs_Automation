@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="olylDYvZr0uyZxU8wswt9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/checkouts/cn/hWN8ewDvlIuOHoyaZ9uJP2aQ/en-in" CVScreenId="5aa9f0fb-c2f7-401e-b076-d9f1eea48a05" CvTextArea="351, 509, 146, 15" CvTextArgument="Cash on Delivery (COD)" CvType="Text" DesignTimeRectangle="353, 505, 444, 21" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='Form1' tag='DIV' /&gt;" Guid="7bb7e4fa-1e89-4cec-bfe9-d4c39278ff1e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8c7a78ecdc338b344c3407442735dde7.jpg" xmlns="">0tS_QO6m7Zk6kq2qgCx5aNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

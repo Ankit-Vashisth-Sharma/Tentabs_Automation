@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Omron Massager HV-F013",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "RwtkV6M6QUCCn0_076ebxA",
+  "Reference": "1rDoub721k--2X_7iq-QCA/RwtkV6M6QUCCn0_076ebxA",
+  "ParentRef": "1rDoub721k--2X_7iq-QCA/FFKWyX3wGEGcnLMxoYR-6w",
+  "Created": "2026-02-11T12:52:51.2450133Z",
+  "Updated": "2026-02-11T12:52:51.2450133Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

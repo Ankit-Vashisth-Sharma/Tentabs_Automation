@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tHSX2yMA7kqZVvJXyqnunQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/checkouts/cn/hWN8giqEjEhgYATblbfQf9rG/en-in" DesignTimeRectangle="309, 450, 503, 424" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-labelledby='payment' aria-role='group' tag='DIV' /&gt;" Guid="0ffba6af-e6da-47df-97e3-bea085937ca6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="73437ba70350d2a5381abebe07c47b0c.jpg" xmlns="">0XQVcxvTCYEaAqtYTdW5aqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

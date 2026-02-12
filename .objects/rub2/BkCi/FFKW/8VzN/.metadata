@@ -1,0 +1,13 @@
+﻿{
+  "Name": "use #icon-h-account",
+  "Type": "Element",
+  "Id": "8VzNxKO8gUCqRCxL43hc2w",
+  "Reference": "1rDoub721k--2X_7iq-QCA/8VzNxKO8gUCqRCxL43hc2w",
+  "ParentRef": "1rDoub721k--2X_7iq-QCA/FFKWyX3wGEGcnLMxoYR-6w",
+  "Created": "2026-02-10T13:02:32.2486576Z",
+  "Updated": "2026-02-10T13:02:32.2486576Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

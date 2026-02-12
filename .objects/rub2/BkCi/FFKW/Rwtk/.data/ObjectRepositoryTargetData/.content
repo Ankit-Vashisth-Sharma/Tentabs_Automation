@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="i70DvNAbpkWO639lUIXMTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="efb8df88-2ca5-44c4-8e69-56aa41ac5e3e" DesignTimeRectangle="1378, 525, 205, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Omron Massager HV-F013' href='/products/omron-hv-f013?_pos=1&amp;amp;_psq=Omron&amp;amp;_ss=e&amp;amp;_v=1.0' tag='A' /&gt;" Guid="866c090a-09ce-4a12-ae43-7b924b8b45d0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dd01c5868e022552a719dfbcce481337.jpg" xmlns="">0rtlslKYLJUG1KfzqdC54Vw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iP5BOeCmCUeQzlrme9LoIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" CVScreenId="18ddea0c-9a4d-41ed-8db4-c5b853d487a4" DesignTimeRectangle="1288, 298, 300, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="523ebd99-44aa-4cd9-9745-e9a7c95ed9a2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="96928caffc71beb484aff4b8485c6001.jpg" xmlns="">0GDp2TSr4pUWIGnsbHIA-Zg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

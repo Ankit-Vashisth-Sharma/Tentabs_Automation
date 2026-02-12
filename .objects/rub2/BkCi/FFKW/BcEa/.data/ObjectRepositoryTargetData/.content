@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a79IqpBBDEa-VmIu6YKeuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/products/omron-hv-f013" CVScreenId="97324101-dd5a-45ed-9433-409e65ef8ef4" DesignTimeRectangle="1288, 750, 300, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='checkout' tag='BUTTON' type='submit' /&gt;" Guid="18db01a9-fbef-4eba-8ca3-270723130f8b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Omron Massager HV-F013 Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f2e8f0a2744cb770716edc4a00ba73eb.jpg" xmlns="">0SSiQPoz3ZkWZAlp8Kd7wvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

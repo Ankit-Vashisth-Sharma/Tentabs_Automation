@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GbDJ7V5Ym0mERJ95_5W76g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/checkouts/cn/hWN8eYAaG8dey8bwKEzprTLG/en-in" CVScreenId="425d20e5-4d5d-4fd4-9122-3afb9051674e" CvElementArea="308, 274, 503, 54" CvType="InputBox" DesignTimeRectangle="310, 277, 501, 49" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='_7ozb2ur _7ozb2uq _1fragemsm _1fragemz8 _1fragemvn _1fragemyc _7ozb2uu _7ozb2ut _1fragemyu _1fragemyp _1fragemz4 _7ozb2u12 _7ozb2u17 _7ozb2u1p _7ozb2us' placeholder='Email or mobile phone number' aaname='Email or mobile phone number' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8f487c97-f470-454e-b4af-fbb9ed663674" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="425d20e5-4d5d-4fd4-9122-3afb9051674e" DesignTimeRectangle="321, 286, 164, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='email-label' tag='LABEL' type='' class='cektnc3 cektnc1 _1fragemsc _1fragemyd _1fragemz8 _1fragemyu _1fragemyp _1fragemz4 _1fragemz5' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email or mobile phone number' /&gt;" Guid="d4d6756a-b4b2-443f-a756-c033ef3998be" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="51efd3aff0098ef9aaf542b3699052e7.jpg" xmlns="">01_iQBayXJ0iKDmZ_Whh8VA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

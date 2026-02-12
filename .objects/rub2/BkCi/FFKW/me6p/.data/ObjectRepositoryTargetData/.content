@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u8KKYNnF2ESsvg7ap4qyDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="b9d56fa9-8fbb-404c-a585-2f9e0ba51172" CvElementArea="944, 670, 176, 44" CvTextArea="996, 685, 96, 13" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="998, 685, 93, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentname='add' tag='SPAN' type='' class='t4s-btn-atc_text' aaname='Add to cart' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADD TO CART' /&gt;" Guid="3db01d45-920c-4275-981c-cbf9bd93a69b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b9d56fa9-8fbb-404c-a585-2f9e0ba51172" CvElementArea="944, 670, 176, 44" CvTextArea="996, 685, 96, 13" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="946, 672, 171, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='t4s-product-form__submit t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-color-primary t4s-w-100 t4s-justify-content-center t4s-btn-effect-sweep-to-top t4s-btn-loading__svg' aaname='Add to cart                                                            ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADD TO CART' /&gt;" Guid="74bb1b37-bdae-4472-8f99-ce56d81a79c8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="944554d181b3a6aac9b39c23f10a26c2.jpg" xmlns="">0zgTUZc9NR0GPBT9ty5lfJw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

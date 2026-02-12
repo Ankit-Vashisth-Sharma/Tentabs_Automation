@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vr3VUWDfDU6eOCvpu5jLog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/checkouts/cn/hWN8giqEjEhgYATblbfQf9rG/en-in" DesignTimeRectangle="271, -602, 580, 1972" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='gdtca' parentid='CustomProperties-P0-0' tag='DIV' /&gt;" Guid="39e690ec-ac37-4dbb-9b30-c452bf4c9d94" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="639b78c5ceeaf4c987616fcf95433836.jpg" xmlns="">0LKt9Ox883Uyiuv5rmaIhIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,923 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="376,299" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:r="clr-namespace:Reading_Word;assembly=Reading Word" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Word.Activities</x:String>
+      <x:String>UiPath.Sdk.Activities</x:String>
+      <x:String>UiPath.Sdk.Activities.DependencyInjection</x:String>
+      <x:String>UiPath.Sdk.Activities.DependencyInjection.Contracts</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.NetIQeDirectory</x:String>
+      <x:String>UiPath.NetIQeDirectory.Activities</x:String>
+      <x:String>UiPath.Shared.Core</x:String>
+      <x:String>Reading_Word</x:String>
+      <x:String>UiPath</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.NetIQeDirectory</AssemblyReference>
+      <AssemblyReference>UiPath.NetIQeDirectory.Activities</AssemblyReference>
+      <AssemblyReference>Reading Word</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities.Api</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Api</AssemblyReference>
+      <AssemblyReference>UiPath.Interop</AssemblyReference>
+      <AssemblyReference>UiPath.DriverCore</AssemblyReference>
+      <AssemblyReference>UiPath.Driver.ComInterop</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="840,13865" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="lastName" />
+      <Variable x:TypeArguments="x:String" Name="firstName" />
+      <Variable x:TypeArguments="x:String" Name="wordText" />
+      <Variable x:TypeArguments="x:String" Name="email" />
+      <Variable x:TypeArguments="x:String" Name="password" />
+      <Variable x:TypeArguments="x:String" Name="itemName" />
+      <Variable x:TypeArguments="x:String" Name="itemName2" />
+      <Variable x:TypeArguments="x:String" Name="Phone" />
+      <Variable x:TypeArguments="x:String" Name="Address" />
+      <Variable x:TypeArguments="x:String" Name="City" />
+      <Variable x:TypeArguments="x:String" Name="Pin" />
+      <Variable x:TypeArguments="x:String" Name="Country" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <r:NewActivity sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="NewActivity_2" />
+    <p:DocumentReadText PathResource="{x:Null}" DisplayName="Read Text" FilePath="Login Details.docx" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="DocumentReadText_3">
+      <p:DocumentReadText.Text>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">wordText</CSharpReference>
+        </OutArgument>
+      </p:DocumentReadText.Text>
+    </p:DocumentReadText>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_7">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">wordText</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">wordText.Replace("\r", "").Replace("\n", "").Replace(" ", "")</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">firstName</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">wordText.Substring(wordText.IndexOf("FirstName=") + "FirstName=".Length, wordText.IndexOf("LastName=") - (wordText.IndexOf("FirstName=") + "FirstName=".Length))</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">"First Name is: "+ firstName</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">lastName</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">wordText.Substring(wordText.IndexOf("LastName=") + "LastName=".Length, wordText.IndexOf("Email=") - (wordText.IndexOf("LastName=") + "LastName=".Length))</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">"Last Name is: "+ lastName</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_4">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">email</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20" xml:space="preserve">wordText.Substring(
+    wordText.IndexOf("Email=") + "Email=".Length,
+    wordText.IndexOf("Password=") - (wordText.IndexOf("Email=") + "Email=".Length)
+);</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">"Email is: "+ email</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_5">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">password</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">wordText.Substring(wordText.IndexOf("Password=") + "Password=".Length, wordText.IndexOf("ItemsName=") - (wordText.IndexOf("Password=") + "Password=".Length)).Trim()</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">"Password is: "+ password</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_8">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">itemName</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_33">wordText.Substring(wordText.IndexOf("ItemsName=") + "ItemsName=".Length, wordText.IndexOf("ItemsName2=") - (wordText.IndexOf("ItemsName=") + "ItemsName=".Length)).Trim()</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">"Items is: "+ itemName</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_17">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_18">itemName2</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_53">wordText.Substring(wordText.IndexOf("ItemsName2=") + "ItemsName2=".Length, wordText.IndexOf("Phone=") - (wordText.IndexOf("ItemsName2=") + "ItemsName2=".Length)).Trim()</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_22" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">"Item 2: "+ itemName2</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_12">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">Phone</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_71">System.Text.RegularExpressions.Regex.Replace(wordText.Substring(wordText.IndexOf("Phone=") + "Phone=".Length, wordText.IndexOf("Address=") - (wordText.IndexOf("Phone=") + "Phone=".Length)).Trim(), @"\D", "")</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">"Phone: "+ Phone</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_13">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">Address</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_55" xml:space="preserve">wordText.Substring(
+  wordText.IndexOf("Address=") + "Address=".Length,
+  wordText.IndexOf("City=") -
+  (wordText.IndexOf("Address=") + "Address=".Length)
+).Trim()</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_18" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">"Address: "+ Address</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_14">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_14">City</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56" xml:space="preserve">wordText.Substring(
+  wordText.IndexOf("City=") + "City=".Length,
+  wordText.IndexOf("PIN=") -
+  (wordText.IndexOf("City=") + "City=".Length)
+).Trim()</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_19" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">"City: "+ City</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_15">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">Pin</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">wordText.Substring(wordText.IndexOf("PIN=") + "PIN=".Length, wordText.IndexOf("Country=") - (wordText.IndexOf("PIN=") + "PIN=".Length)).Trim()</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_20" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_57">"Pin: "+ Pin</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_16">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">Country</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_58" xml:space="preserve">wordText.Substring(
+  wordText.IndexOf("Country=") + "Country=".Length
+).Trim()</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_21" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_47">"Country: "+ Country</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Best Medical Supplies Online  Medical" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,9637" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,9443" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"URL is working"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'use #icon-h-account'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="7d41dd2a-130d-476f-8e2c-f0cf9a023b69" ContentHash="Dvo-1wEGg0SOs7ImR5Hn4Q" DesignTimeRectangle="1474, 127, 16, 18" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl href='#icon-h-account' parentid='shopify-section-header-inline' tag='use' /&gt;" Guid="e0dab1a1-6b29-4fad-998f-f502f24ba74e" InformativeScreenshot="be31a0d15ad45c04ab86a8fef6814f3f.jpg" Reference="1rDoub721k--2X_7iq-QCA/8VzNxKO8gUCqRCxL43hc2w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Click on Account icon"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New customer Create yo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="f1382e6b-5ba8-4250-93a1-191a3ef1152b" ContentHash="DjeWXN_790GyyTWLs0Zr5g" DesignTimeRectangle="1288, 470, 257, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' New customer? Create your account' parentid='customer_loginlogin-sidebar' tag='A' /&gt;" Guid="0423d06b-336c-4fd1-bacf-230fa8b2048c" InformativeScreenshot="b6e98e79dc7b18e6433dfed2a683adf6.jpg" Reference="1rDoub721k--2X_7iq-QCA/xUr3qt7_JkO_8LDBP9JgOg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">"Creating new account"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="0640ffd5-4bde-40d9-bfa9-97ac6dc997f0" ContentHash="EO5yJcbEHUqWgAOfMmzYKA" CvElementArea="1288, 175, 301, 48" CvType="InputBox" DesignTimeRectangle="1288, 176, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-FirstName' tag='INPUT' type='text' class='t4s_frm_input' placeholder='First Name' aaname='                           First Name                         ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="eee7a3ea-f156-48b4-aeca-b85201e70a63" InformativeScreenshot="2a542592da3751068f4412717aa9fb24.jpg" Reference="1rDoub721k--2X_7iq-QCA/xVgP2Jem7kOq8qfw4lWQOA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="0640ffd5-4bde-40d9-bfa9-97ac6dc997f0" CvElementArea="1288, 175, 301, 48" CvType="InputBox" DesignTimeRectangle="1302, 176, 74, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' aaname='                           First Name                         ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='First Name' /&gt;" Guid="85f4f3e2-2b9f-442b-b519-6c4b26ccdd4d" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">firstName</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">"Entered First Name is: "+ firstName</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="1beb6439-2417-4c23-af16-9fa9e4ed6585" ContentHash="xgP0S-6fDk2achIpV87N1Q" CvElementArea="1287, 251, 302, 48" CvType="InputBox" DesignTimeRectangle="1288, 252, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-LastName' tag='INPUT' type='text' class='t4s_frm_input' placeholder='Last Name' aaname='                        Last Name                      ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a46d8245-4d87-44fd-82a1-21bd4d43743a" InformativeScreenshot="0e50d57bb032541a333f1337738ebfa9.jpg" Reference="1rDoub721k--2X_7iq-QCA/q1gcqD_95UWCl8UdjNsLVw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1beb6439-2417-4c23-af16-9fa9e4ed6585" DesignTimeRectangle="1302, 252, 74, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                        Last Name                      ' parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Last Name' /&gt;" Guid="4fa89051-e82f-4ac9-bd4f-53210a86e050" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">lastName</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">"Entered Last Name is: "+ lastName</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="9d42af85-3a95-4df4-813e-5c85eed6ed55" ContentHash="w8VxDjOshUiOR0erWgajRw" CvElementArea="1287, 327, 302, 48" CvType="InputBox" DesignTimeRectangle="1288, 328, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-email' tag='INPUT' type='email' class='t4s_frm_input' placeholder='Email' aaname='                        Email *                      ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="a4de550a-fc66-492f-92ed-3bf48c7bd7d5" InformativeScreenshot="8daf14320d664b411c1b9ae2b59aec46.jpg" Reference="1rDoub721k--2X_7iq-QCA/fLatk-GCFUGLFmk98Af5zA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="9d42af85-3a95-4df4-813e-5c85eed6ed55" DesignTimeRectangle="1302, 328, 49, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                        Email                       ' parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Email&amp;#xA;*' /&gt;" Guid="d7c19cd5-98c6-45ad-9b18-c9622129132d" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">email</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">"Entered Email is: "+ email</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="9d42af85-3a95-4df4-813e-5c85eed6ed55" ContentHash="rYD02GsDJkSrYemsM8H8xA" CvElementArea="1287, 402, 302, 49" CvType="InputBox" DesignTimeRectangle="1288, 404, 300, 46" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-password' tag='INPUT' type='password' class='t4s_frm_input' placeholder='Password' aaname='                        Password *                      ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="37c51162-d86d-4abc-a435-4fe0e8210252" InformativeScreenshot="00a4d86dccd5bb49b8775acb2599ab74.jpg" Reference="1rDoub721k--2X_7iq-QCA/k6cm91hq5karlpeL1wdp8Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="9d42af85-3a95-4df4-813e-5c85eed6ed55" DesignTimeRectangle="1302, 404, 78, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                        Password                       ' parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password&amp;#xA;*' /&gt;" Guid="5a9cbba1-e4bc-4827-804d-be58c493e864" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">password</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">"Entered Password is: "+ password</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Register'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="9d42af85-3a95-4df4-813e-5c85eed6ed55" ContentHash="hq-FFKZJ5UuQvA-tj4vq6Q" DesignTimeRectangle="1288, 480, 300, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='customer_createlogin-sidebar' tag='BUTTON' /&gt;" Guid="d77a6fac-b9a1-4f40-bcdc-40ea01330784" InformativeScreenshot="4a3b8523c34120b947d0d1183802b7a6.jpg" Reference="1rDoub721k--2X_7iq-QCA/e2C2rbG0HESnH0gObTgFKg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">"New Account registered successfully"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="Delay_6" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="42516d25-d7c7-4482-ad26-049fe9e3a419" ContentHash="KhK3iver40ipi2DTQif6Fw" CvElementArea="1429, 122, 29, 28" CvType="Icon" DesignTimeRectangle="1424, 125, 38, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='shopify-section-header-inline' tag='DIV' /&gt;" Guid="9381e17e-20ce-4c8a-82a8-ad3e2ebf00b2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAaCAYAAADBuc72AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJeSURBVFhH3ZdbSFRRFIaFIooiiILqKbpQEfVSkUVEUhGolYX0UppGhiON2TQkJNVDd7vSUBZkV0u7G0yhmFkpUip2sdugUloyXQwjSmdGZ+aPtWEeWtjprHNizL7H9bPZ39mbvdc+EeglRPDCv8r/L+oPBHC9tApxGw5g3OIMDIhchVHRVixM243TN+/D6+vkQ0xhSLTlUxsiE7dgQpwNxy6X4FFdA350eFFX34xzznIlO3ZRBp643vKhhhGLNr7/iOHzUmHbfx4ejVXLuVKCoXNTcK/mJY8MIRKlVZu4dCOyHJd41C3OB7UYFrUWzR++8EiMSHTfWScmLbPD19nFo9+SvO04krbm8LIYkejomHTkFpbxsibPG96h3/QEfG77xiMRukVpoj5TV6iJJQQCQQyalYziyqc8EqFbtPpFIwbOTFITS4lK2Y4TV0t5WYRuUVeTW61ou8fHoz8yOX4TLtyu4GURukVJsP+MRJTXvuaRJh1eH/pOW4mKxy4eidAtSsSmZyMh6ygva3Ikv0hdUdTJzCASLSyrUduv9xJ3t37F4NmrYT+YxyMxIlEidcdJ1Tqb3K08+oXv7R7EWLMxZXmmZgfTi1i0y+9H2q5TGDJnDfJudX9AHj6rVw+VEfMtqufT28AsYtEQ+UWV6rVEfT963V5kHr6IePshJTZygQWOgmL1UZaduRi/xGZa1rAoQVt64241NjsK1EEjqWt3qpRgiGAw+FdkTYnqhWSp54+JXW9YNiyiBMnSQTQqGzbREEZlwy5KWPecUX8IEnpElHj1poWXNOkxUSm9RvQnqWVmpDqRpv8AAAAASUVORK5CYII=" InformativeScreenshot="3009e7ad4b39303d2f1ad2bb50b179ec.jpg" Reference="1rDoub721k--2X_7iq-QCA/6whgMQzOqUu0FhQhkrea9g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_23" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_59">"Click on Search Button"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="18ddea0c-9a4d-41ed-8db4-c5b853d487a4" ContentHash="iP5BOeCmCUeQzlrme9LoIA" DesignTimeRectangle="1288, 298, 300, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="523ebd99-44aa-4cd9-9745-e9a7c95ed9a2" InformativeScreenshot="96928caffc71beb484aff4b8485c6001.jpg" Reference="1rDoub721k--2X_7iq-QCA/ez311XVlT0Omx6vHlpJnug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_60">itemName</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'MARWA MANIPULATOR'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" ContentHash="hUavlqXsDkuuEcVZIZ5v2w" DesignTimeRectangle="1288, 392, 80, 80" ElementType="Icon" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='MARWA MANIPULATOR' tag='IMG' type='' class='lazyautosizes ls-is-cached lazyloadt4sed' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="340d265f-c39e-4712-8c67-2be24c0407e5" InformativeScreenshot="f3909788ce200e297f8e87ea940d19ad.jpg" Reference="1rDoub721k--2X_7iq-QCA/pxmH897N9kSSICwLDQsP9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="6e447f77-dfdd-44a2-9122-b487fe26dffe" CvTextArea="1377, 393, 157, 13" CvTextArgument="MARWA MANIPULATOR" CvType="Text" DesignTimeRectangle="1378, 392, 210, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='MARWA MANIPULATOR' href='/products/marwa-manipulator?_pos=1&amp;amp;_psq=marw&amp;amp;_ss=e&amp;amp;_v=1.0' tag='A' type='' class='t4s-d-block t4s-widget__pr-title' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:href='fuzzy' fuzzylevel:href='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='MARWA MANIPULATOR' /&gt;" Guid="43450562-0f40-4295-95f7-84f21b11b7c5" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add to cart(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="b9d56fa9-8fbb-404c-a585-2f9e0ba51172" ContentHash="u8KKYNnF2ESsvg7ap4qyDg" CvElementArea="944, 670, 176, 44" CvTextArea="996, 685, 96, 13" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="998, 685, 93, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentname='add' tag='SPAN' type='' class='t4s-btn-atc_text' aaname='Add to cart' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADD TO CART' /&gt;" Guid="3db01d45-920c-4275-981c-cbf9bd93a69b" InformativeScreenshot="944554d181b3a6aac9b39c23f10a26c2.jpg" Reference="1rDoub721k--2X_7iq-QCA/me6ppKd4C0KlTRQGS301uA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="b9d56fa9-8fbb-404c-a585-2f9e0ba51172" CvElementArea="944, 670, 176, 44" CvTextArea="996, 685, 96, 13" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="946, 672, 171, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='t4s-product-form__submit t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-color-primary t4s-w-100 t4s-justify-content-center t4s-btn-effect-sweep-to-top t4s-btn-loading__svg' aaname='Add to cart                                                            ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADD TO CART' /&gt;" Guid="74bb1b37-bdae-4472-8f99-ce56d81a79c8" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="131dcfcd-e808-4255-8b8b-efd4ae66c179" ContentHash="_Bfe5HKml0aUgd8Fe-E8xQ" DesignTimeRectangle="1558, 150, 50, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Close Cart' tag='BUTTON' /&gt;" Guid="da807d98-e921-44ff-804e-2a1be889e278" InformativeScreenshot="3af7b386a0715ef4a5176031d6c69ee4.jpg" Reference="1rDoub721k--2X_7iq-QCA/lQYPLPOBf0udLqhFmS6p3A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_22" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="15b1e562-f753-4250-8177-7b43d9142c7d" ContentHash="EmyJzVJE_0a3qaul6LR4kw" CvElementArea="1428, 173, 29, 28" CvType="Icon" DesignTimeRectangle="1424, 177, 38, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='shopify-section-header-inline' tag='DIV' /&gt;" Guid="02da8a41-3a9e-4dbb-9eed-ac4809af0967" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAaCAYAAADBuc72AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJeSURBVFhH3ZdbSFRRFIaFIooiiILqKbpQEfVSkUVEUhGolYX0UppGhiON2TQkJNVDd7vSUBZkV0u7G0yhmFkpUip2sdugUloyXQwjSmdGZ+aPtWEeWtjprHNizL7H9bPZ39mbvdc+EeglRPDCv8r/L+oPBHC9tApxGw5g3OIMDIhchVHRVixM243TN+/D6+vkQ0xhSLTlUxsiE7dgQpwNxy6X4FFdA350eFFX34xzznIlO3ZRBp643vKhhhGLNr7/iOHzUmHbfx4ejVXLuVKCoXNTcK/mJY8MIRKlVZu4dCOyHJd41C3OB7UYFrUWzR++8EiMSHTfWScmLbPD19nFo9+SvO04krbm8LIYkejomHTkFpbxsibPG96h3/QEfG77xiMRukVpoj5TV6iJJQQCQQyalYziyqc8EqFbtPpFIwbOTFITS4lK2Y4TV0t5WYRuUVeTW61ou8fHoz8yOX4TLtyu4GURukVJsP+MRJTXvuaRJh1eH/pOW4mKxy4eidAtSsSmZyMh6ygva3Ikv0hdUdTJzCASLSyrUduv9xJ3t37F4NmrYT+YxyMxIlEidcdJ1Tqb3K08+oXv7R7EWLMxZXmmZgfTi1i0y+9H2q5TGDJnDfJudX9AHj6rVw+VEfMtqufT28AsYtEQ+UWV6rVEfT963V5kHr6IePshJTZygQWOgmL1UZaduRi/xGZa1rAoQVt64241NjsK1EEjqWt3qpRgiGAw+FdkTYnqhWSp54+JXW9YNiyiBMnSQTQqGzbREEZlwy5KWPecUX8IEnpElHj1poWXNOkxUSm9RvQnqWVmpDqRpv8AAAAASUVORK5CYII=" InformativeScreenshot="49251a7cd2163c615ad5a7eed394ffcf.jpg" Reference="1rDoub721k--2X_7iq-QCA/3hhalo7B7km8ahIN9M6Ixg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="1997a473-6196-425f-9d12-39157a06e70b" ContentHash="2r0fBJlUZ0SMBLNY8_SlRg" DesignTimeRectangle="1288, 298, 300, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="1b768077-3fd8-4bbf-ba37-27e94b0256a5" InformativeScreenshot="93f3444d94d58f49a2458424317fc8ed.jpg" Reference="1rDoub721k--2X_7iq-QCA/zbvxAHvhgUe62r3lBZyeIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="1997a473-6196-425f-9d12-39157a06e70b" ContentHash="2r0fBJlUZ0SMBLNY8_SlRg" DesignTimeRectangle="1288, 298, 300, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="1b768077-3fd8-4bbf-ba37-27e94b0256a5" InformativeScreenshot="93f3444d94d58f49a2458424317fc8ed.jpg" Reference="1rDoub721k--2X_7iq-QCA/zbvxAHvhgUe62r3lBZyeIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_61">itemName2</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Omron Massager HV-F013'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="efb8df88-2ca5-44c4-8e69-56aa41ac5e3e" ContentHash="i70DvNAbpkWO639lUIXMTQ" DesignTimeRectangle="1378, 525, 205, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Omron Massager HV-F013' href='/products/omron-hv-f013?_pos=1&amp;amp;_psq=Omron&amp;amp;_ss=e&amp;amp;_v=1.0' tag='A' /&gt;" Guid="866c090a-09ce-4a12-ae43-7b924b8b45d0" InformativeScreenshot="dd01c5868e022552a719dfbcce481337.jpg" Reference="1rDoub721k--2X_7iq-QCA/RwtkV6M6QUCCn0_076ebxA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add to cart(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/omron-hv-f013" CVScreenId="2a9c5439-e686-48c8-b182-06b4a4710bb8" ContentHash="LtUrJlNtqky1BfEVb1egBQ" CvElementArea="943, 518, 177, 44" CvTextArea="996, 533, 96, 13" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="998, 533, 93, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentname='add' tag='SPAN' type='' class='t4s-btn-atc_text' aaname='Add to cart' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADD TO CART' /&gt;" Guid="bda45060-ce6b-41fb-903e-476a2ecc2b06" InformativeScreenshot="cc4956a1b8c0c33a6b57a23fdfc32767.jpg" Reference="1rDoub721k--2X_7iq-QCA/YYYle9MIG0-ku0jbfOkJQA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Omron Massager HV-F013 Online at Best Price - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="2a9c5439-e686-48c8-b182-06b4a4710bb8" CvElementArea="943, 518, 177, 44" CvTextArea="996, 533, 96, 13" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="946, 520, 171, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='t4s-product-form__submit t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-color-primary t4s-w-100 t4s-justify-content-center t4s-btn-effect-sweep-to-top t4s-btn-loading__svg' aaname='Add to cart                                                            ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADD TO CART' /&gt;" Guid="294dd399-7728-4073-b7c9-4f55aab0dca3" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="Delay_4" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/omron-hv-f013" CVScreenId="bd6d5305-d07c-478f-b210-6e5588b0354f" ContentHash="Db29sffA6Ui-ZilMQQAxyA" DesignTimeRectangle="1288, 654, 275, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" Guid="8f6c8594-bcbe-4623-b0a5-884727c74d34" InformativeScreenshot="872e8235e011b24ad3b1e495931196b1.jpg" Reference="1rDoub721k--2X_7iq-QCA/dOkLm8Y1J0KeRTJwlcJL0w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Omron Massager HV-F013 Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Check Out'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/products/omron-hv-f013" CVScreenId="97324101-dd5a-45ed-9433-409e65ef8ef4" ContentHash="a79IqpBBDEa-VmIu6YKeuQ" DesignTimeRectangle="1288, 750, 300, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='checkout' tag='BUTTON' type='submit' /&gt;" Guid="18db01a9-fbef-4eba-8ca3-270723130f8b" InformativeScreenshot="f2e8f0a2744cb770716edc4a00ba73eb.jpg" Reference="1rDoub721k--2X_7iq-QCA/BcEaLMpN1Eu8NP3zuHxEKw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Omron Massager HV-F013 Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="Delay_5" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'First name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8eYAaG8dey8bwKEzprTLG/en-in" CVScreenId="63a0f954-0b13-4cf6-b5b6-136f346630e6" ContentHash="D_kmnwTuf0ylA_y5_fWDcA" CvElementArea="308, 529, 248, 55" CvType="InputBox" DesignTimeRectangle="310, 532, 242, 49" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='TextField0' tag='INPUT' type='text' class='_7ozb2ur _7ozb2uq _1fragemsm _1fragemz8 _1fragemvn _1fragemyc _7ozb2uu _7ozb2ut _1fragemyu _1fragemyp _1fragemz4 _7ozb2u12 _7ozb2u17 _7ozb2u1p _7ozb2us' placeholder='First name' aaname='First name' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="eb0d7770-ab03-47d2-9887-5850851b443f" InformativeScreenshot="670ae017722ab35ad43990ec0a8758f8.jpg" Reference="1rDoub721k--2X_7iq-QCA/CcvfxbX9CEW74TNbY2GR6A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="63a0f954-0b13-4cf6-b5b6-136f346630e6" DesignTimeRectangle="321, 541, 54, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='shippingAddressForm' tag='LABEL' class='cektnc3 cektnc1 _1fragemsc _1fragemyd _1fragemz8 _1fragemyu _1fragemyp _1fragemz4 _1fragemz5' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='First name' /&gt;" Guid="e8969f34-4eba-49c4-b210-bdc67180f466" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_63">firstName</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Last name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_9" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8eYAaG8dey8bwKEzprTLG/en-in" CVScreenId="1c79e366-5e52-47e0-a19a-d002e24c3b7e" ContentHash="tBB2kvC2PkScSrOopsLg3g" CvElementArea="566, 530, 247, 54" CvType="InputBox" DesignTimeRectangle="568, 532, 243, 49" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='TextField1' tag='INPUT' type='text' class='_7ozb2ur _7ozb2uq _1fragemsm _1fragemz8 _1fragemvn _1fragemyc _7ozb2uu _7ozb2ut _1fragemyu _1fragemyp _1fragemz4 _7ozb2u12 _7ozb2u17 _7ozb2u1p _7ozb2us' placeholder='Last name' aaname='Last name' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="544b89e4-61a0-42c6-8728-0a4f89557fb8" InformativeScreenshot="ea5e60eda185077c37d387093160caf5.jpg" Reference="1rDoub721k--2X_7iq-QCA/U6eFuoVo7EqDRJ5QopPwRw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1c79e366-5e52-47e0-a19a-d002e24c3b7e" CvElementArea="566, 530, 247, 54" CvType="InputBox" DesignTimeRectangle="579, 538, 54, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='cektnc3 cektnc1 _1fragemsc _1fragemyd _1fragemz8 _1fragemyu _1fragemyp _1fragemz4 _1fragemz5' parentid='shippingAddressForm' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Last name' /&gt;" Guid="b95bea7e-5546-4b2e-9f77-92682dc4f092" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_64">lastName</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8ewDvlIuOHoyaZ9uJP2aQ/en-in" CVScreenId="1774634a-e83f-44a9-95ab-031acb411c95" ContentHash="zNIpF1H66EuAeFAeEuiVCA" CvElementArea="308, 474, 505, 53" CvType="InputBox" DesignTimeRectangle="310, 476, 501, 49" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='shipping-address1' tag='INPUT' type='text' class='_7ozb2ur _7ozb2uq _1fragemsm _1fragemz8 _1fragemvn _1fragemyc _7ozb2uu _7ozb2ut _1fragemyu _1fragemyp _1fragemz4 _7ozb2u12 _7ozb2uw _7ozb2uv _1fragemc8 _1fragemdw _7ozb2u17 _7ozb2u1p _7ozb2us' placeholder='Address' aaname='Address' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b978d428-3bd9-46bc-b83b-748cb19c1cea" InformativeScreenshot="d814f5bb98ab4afaf1d6d81874b14f26.jpg" Reference="1rDoub721k--2X_7iq-QCA/h9hORMRKpUqOYMegxY0a2w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1774634a-e83f-44a9-95ab-031acb411c95" CvElementArea="308, 474, 505, 53" CvType="InputBox" DesignTimeRectangle="321, 485, 42, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='shippingAddressForm' tag='LABEL' class='cektnc3 cektnc1 _1fragemsc _1fragemyd _1fragemz8 _1fragemyu _1fragemyp _1fragemz4 _1fragemz5' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Address' /&gt;" Guid="d6ef9e06-f17a-4203-b266-ff63a4d567a8" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_69">Address</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'City'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_10" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8eYAaG8dey8bwKEzprTLG/en-in" CVScreenId="01ef4e5a-2e32-400f-ae26-12fc0fce7602" ContentHash="G2u8A1xoh0qZNfG4PWE7UA" CvElementArea="307, 489, 161, 54" CvType="InputBox" DesignTimeRectangle="310, 492, 156, 49" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='TextField4' tag='INPUT' type='text' class='_7ozb2ur _7ozb2uq _1fragemsm _1fragemz8 _1fragemvn _1fragemyc _7ozb2uu _7ozb2ut _1fragemyu _1fragemyp _1fragemz4 _7ozb2u12 _7ozb2u17 _7ozb2u1p _7ozb2us' placeholder='City' aaname='City' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d3d9b0bb-bf17-4750-83fb-8eea1f90b658" InformativeScreenshot="42924505f88a9742374492b3dc857faf.jpg" Reference="1rDoub721k--2X_7iq-QCA/fGTCU-ETcUSD2NK2PPaJeA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="01ef4e5a-2e32-400f-ae26-12fc0fce7602" DesignTimeRectangle="321, 501, 20, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='cektnc3 cektnc1 _1fragemsc _1fragemyd _1fragemz8 _1fragemyu _1fragemyp _1fragemz4 _1fragemz5' parentid='shippingAddressForm' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='City' /&gt;" Guid="c2004592-6903-4f17-8141-f0a414d7d21e" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_65">City</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'PIN code'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8eYAaG8dey8bwKEzprTLG/en-in" CVScreenId="171e8d13-5cee-42d9-a644-d4f108b600e3" ContentHash="wNU-4jmCKUC-hSyHQ7O0vQ" CvElementArea="652, 254, 162, 54" CvType="InputBox" DesignTimeRectangle="654, 257, 156, 49" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='TextField5' tag='INPUT' type='text' class='_7ozb2ur _7ozb2uq _1fragemsm _1fragemz8 _1fragemvn _1fragemyc _7ozb2uu _7ozb2ut _1fragemyu _1fragemyp _1fragemz4 _7ozb2u12 _7ozb2u17 _7ozb2u1p _7ozb2us' placeholder='PIN code' aaname='PIN code' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="43fa5179-f7df-429d-ab72-b4ca63ac284b" InformativeScreenshot="aed4d0006b096317eaf2fa0ee10a6ad6.jpg" Reference="1rDoub721k--2X_7iq-QCA/AcDaf0i2VE6u0MyjxHTeSg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="171e8d13-5cee-42d9-a644-d4f108b600e3" CvElementArea="652, 254, 162, 54" CvType="InputBox" DesignTimeRectangle="665, 263, 48, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='cektnc3 cektnc1 _1fragemsc _1fragemyd _1fragemz8 _1fragemyu _1fragemyp _1fragemz4 _1fragemz5' parentid='shippingAddressForm' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PIN code' /&gt;" Guid="b4fdfa33-47b3-4060-b4eb-ac60f800ee75" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">Pin</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Phone'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_12" InteractionMode="SameAsCard" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8eYAaG8dey8bwKEzprTLG/en-in" CVScreenId="d5de44c3-826c-4bd0-b083-2ce717b27004" ContentHash="TyOT3p01KUidz765e8eb2g" CvElementArea="307, 792, 506, 53" CvType="InputBox" DesignTimeRectangle="310, 794, 472, 49" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='TextField6' tag='INPUT' type='tel' class='_7ozb2ur _7ozb2uq _1fragemsm _1fragemz8 _1fragemvn _1fragemyc _7ozb2uu _7ozb2ut _1fragemyu _1fragemyp _1fragemz4 _7ozb2u12 _7ozb2uw _7ozb2uv _1fragemc8 _1fragemdw _7ozb2u16 _7ozb2u1p _7ozb2us' placeholder='Phone' aaname='Phone' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c22f370d-821c-45d2-924c-ac3edfc7c72b" InformativeScreenshot="195ba2bf198aa34980b6dc6da4787b8a.jpg" Reference="1rDoub721k--2X_7iq-QCA/z2YLyNLSdEusa1BhU9cAIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d5de44c3-826c-4bd0-b083-2ce717b27004" DesignTimeRectangle="321, 803, 33, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='cektnc3 cektnc1 _1fragemsc _1fragemyd _1fragemz8 _1fragemyu _1fragemyp _1fragemz4 _1fragemz5' parentid='shippingAddressForm' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Phone' /&gt;" Guid="6d2f2d6d-683f-4ad3-9a89-1d3caec202e0" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_67">Phone</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_7" />
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,315" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NMouseScroll.SearchedElement>
+                <uix:SearchedElement>
+                  <uix:SearchedElement.InUiElement>
+                    <InArgument x:TypeArguments="ui:UiElement" />
+                  </uix:SearchedElement.InUiElement>
+                  <uix:SearchedElement.OutUiElement>
+                    <OutArgument x:TypeArguments="ui:UiElement" />
+                  </uix:SearchedElement.OutUiElement>
+                  <uix:SearchedElement.Target>
+                    <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8giqEjEhgYATblbfQf9rG/en-in" ContentHash="GMFb9S00YEaCaB0DrcIBFw" DesignTimeRectangle="309, 389, 503, 669" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-labelledby='billingAddress' aria-role='group' tag='DIV' /&gt;" Guid="c3a45162-f5ed-4cd1-9339-e83adc808ae9" InformativeScreenshot="176c5dd7dcff71c838e952bec86bcd8e.jpg" Reference="1rDoub721k--2X_7iq-QCA/LPhZrv9K2EKu-NuDLWl1hg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:SearchedElement.Target>
+                  <uix:SearchedElement.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:SearchedElement.Timeout>
+                </uix:SearchedElement>
+              </uix:NMouseScroll.SearchedElement>
+            </uix:NMouseScroll>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Same as shipping address'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8ewDvlIuOHoyaZ9uJP2aQ/en-in" CVScreenId="d43e20c9-482e-48f6-b6ff-f2416eb435c6" ContentHash="7pEokLLf_U2YapYAE3Ti8w" CvElementArea="321, 562, 24, 23" CvTextArea="351, 566, 161, 13" CvTextArgument="Same as shipping address" CvType="RadioButton" DesignTimeRectangle="310, 548, 501, 49" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='Form1' tag='DIV' /&gt;" Guid="7568bee0-2c95-46af-a934-e6d81585a779" InformativeScreenshot="6244339f75b1e3ad442b5ae715829d64.jpg" Reference="1rDoub721k--2X_7iq-QCA/eOIMs6TxDk-EFRTAdeDE4g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_25" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_70">"Check Out Done"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A httpstentabs.in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/checkouts/cn/hWN8giqEjEhgYATblbfQf9rG/en-in" CVScreenId="7bb245c4-88e1-4217-8fde-19e1a3b162c5" ContentHash="Dc9B6kRZvkG_7oVbYV3O3Q" CvTextArea="379, 131, 203, 31" CvTextArgument="TenTabs Order Medical Online Equipment" CvType="Text" DesignTimeRectangle="309, 116, 288, 60" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl href='https://tentabs.in' tag='A' /&gt;" Guid="9f962f7e-d43f-4f4c-a479-af26dd2ad01f" InformativeScreenshot="26efd966b20de89788f160fe21402ed4.jpg" Reference="1rDoub721k--2X_7iq-QCA/zfVBU9eHdU-Lnh9eekF05w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Dashboard Addresses Log…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_28" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="cb325276-5b21-423f-8f1f-17d94352627f" ContentHash="nRR3XFy5YEy55v3lyz0zbw" CvElementArea="1468, 121, 29, 29" CvType="Icon" DesignTimeRectangle="1462, 124, 40, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='shopify-section-header-inline' tag='DIV' /&gt;" Guid="b4aaaf35-5933-4981-8416-e73116f5c04d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAcCAYAAAAa/l2sAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFOSURBVFhHY/g/xAADusBgB6MOpjWguoOXbjvyP79rIRiD2NQGVHPwjQfP/ptGV/+Xds36H187DYxBbJAYSI5agGoOBjkM5Mjff/7AxUBskBhIjlqAKg4GRT0oNJEdCwMgMZActZIHVRwMSq+gkMQFQHIgNdQAI9PBQy5JgMCQynQgMOSKNRgYMhUHvcDIcvC/f//+7z5x6f+Epdv/N85YgxeD1Ow5cRmshxJAtoOfvnr33y6p8b+Kb/7/zNa5GA5Ex7kd8/+bxdT8d0ptBuslF5DlYFAogRwbUzXl//efv9Cl8YL5Gw/8d0lvRRcmGpDl4C2Hzv1X8Mwl2bEgAPIsKFZ2HruILkUUIMvBddNW/Q8p6UcXJhoEF/f9b5q1Fl2YKECWg9ObZ//PaJmDLkw0oET/yHAwqHjad+oKujDRgBL9ZDl4IMGog2kNhpyDAZVlpEBlCiRtAAAAAElFTkSuQmCC" InformativeScreenshot="605320973c1674eba72773d52ae8b701.jpg" Reference="1rDoub721k--2X_7iq-QCA/MBGRfVkickm4m8ig0Cx9kg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_29" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="276bba77-6522-4ab3-94d8-7099d2f44d44" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in/account" CVScreenId="21e43f36-aa93-47cb-a83c-882329689466" ContentHash="PqW1cP0urkCh-njOC6Nrtw" CvTextArea="251, 472, 50, 17" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="217, 460, 268, 39" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Logout' tag='A' /&gt;" Guid="ece12625-5315-4fcd-8dac-28d8d5048858" InformativeScreenshot="7059c4c247c6302789118d4ca846ac09.jpg" Reference="1rDoub721k--2X_7iq-QCA/S4_BXDhtTEq1_oWB0_yvXw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Account' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_72">"Log Out Done"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1616, 868" BrowserType="Chrome" ContentHash="TY7reidjdkGtDxdKagJ5Jw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAaCAYAAADWm14/AAAABGdBTUEAALEQa0zv0AAAACBjSFJNAACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAABAWlDQ1BpY2MAACjPY2BgXJGTnFvMJMDAkJtXUhTk7qQQERmlwH6HgZFBkoGZQZPBMjG5uMAxIMCHASf4dg2oGggu64LMYiANcKakFicD6Q9AHJ9cUFTCwMAIsounvKQAxI4AskWKgI4CsnNA7HQIuwHEToKwp4DVhAQ5A9k8QLZDOhI7CYkNtQsEWJONkjORHZJcWlQGZUoB8WnGk8zJrJM4srm/CdiLBkqbKH7UnGAkYT3JjTWwPPZtdkEVa+fGWTVrMvfXXj780uD//5LUihKQZmdnAwZQGKKHDUIsfxEDg8VXBgbmCQixpJkMDNtbGRgkbiHEVBYwMPC3MDBsOw8A8P1N272DB40AAAAJcEhZcwAACxEAAAsRAX9kX5EAAAQzSURBVEhLvVZLbxxFEK7dRYITscIhiQAT49hTNWuc7V7LCAlEwN7tHpuYV4SCEMohB8DZ7tmNgAsXxC0cwgkpB14nTjgEKTLIwu7xyXaQ8gs4cuYd4xA7g6pnLNvjRIqM7ZI+1czudPdXXf1VNaA2j6C2w6hNHbWtZ34z/G9DqExI2nYPvvg8kLKATVN+Q70Ol4dqMCew7ARBIglcDfucpPFE4oSTOJFIKoB/p5OJxFcSiUeAtPkQtUlR29Xcp3f0iv+3N1CZ66hMhE0Dh/S7pVlB5TmB4AQdcQK/TQTeSiSlTuIWJN7TFp9IfJkJPEPKpqTNKin7LylzK4PdCm3W+DtUJs392cNj70P6AMDsID7kBP2cLUy3ncCbTuDKnUHLnoDAZSfwYaDIAip7KYt0Mzj6DOSRLY7K3uR3fh5qvD144annYFbQp074iP5JBN1OBC9wF3Dk/K3AViIIgFQM/aOTgNq+Rsp8Rsp+Scp8gcp+Q8peYaCyl1GZGcpSwARXSJm0X8cfwZnvYFaGv3D0icC1fMunncSPncRPnMSLBXyQiGA4qSPMP+kJWOgdeYsJ5DDek/cZ+Dl/fxq1WSFl10Jl0p6o83XaC4fnsq1fzUjQ5xzZXSEREoEwX8fyTHAMgHTsgdpWMhjvSZsybkKo4zJFMaAyP3E6mMDRqDP1e3iwdwsBSaezRej+RFBlGyTelwgsz/RWYZuFykC1ab1HZX16UMVADQP4Uhvw1Q6QMtf4jKwT+DM8+HhOYC3P7WmOMBFYma33wzp+HOqDuXp/ccl7M2oaCF6IIRiPtxH4K+zqWSfgBKVO0CmuCU5gpTjPjq0ataBntAO9jTafhWuoNgjcoK6jBQITGQHaPQJB1IInRt6DgdHzfBCvcR3wBHRn6m868NgcLy5Zfl4B6CSCk1guzrNj69MtkI3zcLzZ2UKgR3emVsID3fkOsAK+cjIAJ4OSq4XFaXZuQbMFA+NtqI55FSxtVsEydfEO/OEEXVyoYSmp+QNYcjUqTrNz41oQqhhCbkLaLPnSrUwaaHsVLqVwZej4oXnWtmStY4lVwOdg14wLU9hsAakWPy/x4qwEUub7ZxtnIX0U4Ac5UOFumEuwOMX/MxprA468Azg6CaTtom9IWYec7h1rw5kTpyonT7xZHLZ7xpEHURuCyNeBRR89NyhlprmZUWTL1LDFYbtn1WYMx8YmoS86x71jMeuQPgX7Q4C0hUAZj40U7COBQLcgbLZLrATSZoEr4XoKkO8TnoApDts9YxVUm6YUNn2rXthQgZ3GyABGZq93wMCAMqUqd0lt59cJ4KYU4F7uAHGUyla4RaO2F/z1LD8D+UWmzHViTw2VKaG/J5huVObX/I54dV9SwOYPm7ZljjhQZhi1/Y2UnfHXtf0iwHIkJuHlGD9IygZ8nQt1DP2Nc8Uh92T/ASGOckIuWcLCAAAAAElFTkSuQmCC" InformativeScreenshot="be69e50c6b97cdc75e0e3948a7a372b1.jpg" Reference="1rDoub721k--2X_7iq-QCA/FFKWyX3wGEGcnLMxoYR-6w" Selector="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" Url="https://tentabs.in/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

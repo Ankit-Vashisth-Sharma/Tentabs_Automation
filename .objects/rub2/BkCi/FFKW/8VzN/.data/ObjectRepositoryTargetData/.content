@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Dvo-1wEGg0SOs7ImR5Hn4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" CVScreenId="7d41dd2a-130d-476f-8e2c-f0cf9a023b69" DesignTimeRectangle="1474, 127, 16, 18" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl href='#icon-h-account' parentid='shopify-section-header-inline' tag='use' /&gt;" Guid="e0dab1a1-6b29-4fad-998f-f502f24ba74e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="be31a0d15ad45c04ab86a8fef6814f3f.jpg" xmlns="">0KI2p_c_l9k60g-gYqM9y7A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

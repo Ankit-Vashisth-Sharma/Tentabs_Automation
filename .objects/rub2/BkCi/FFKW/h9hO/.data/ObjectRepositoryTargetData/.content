@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zNIpF1H66EuAeFAeEuiVCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/checkouts/cn/hWN8ewDvlIuOHoyaZ9uJP2aQ/en-in" CVScreenId="1774634a-e83f-44a9-95ab-031acb411c95" CvElementArea="308, 474, 505, 53" CvType="InputBox" DesignTimeRectangle="310, 476, 501, 49" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='shipping-address1' tag='INPUT' type='text' class='_7ozb2ur _7ozb2uq _1fragemsm _1fragemz8 _1fragemvn _1fragemyc _7ozb2uu _7ozb2ut _1fragemyu _1fragemyp _1fragemz4 _7ozb2u12 _7ozb2uw _7ozb2uv _1fragemc8 _1fragemdw _7ozb2u17 _7ozb2u1p _7ozb2us' placeholder='Address' aaname='Address' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b978d428-3bd9-46bc-b83b-748cb19c1cea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - TenTabs Medical Devices' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1774634a-e83f-44a9-95ab-031acb411c95" CvElementArea="308, 474, 505, 53" CvType="InputBox" DesignTimeRectangle="321, 485, 42, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='shippingAddressForm' tag='LABEL' class='cektnc3 cektnc1 _1fragemsc _1fragemyd _1fragemz8 _1fragemyu _1fragemyp _1fragemz4 _1fragemz5' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Address' /&gt;" Guid="d6ef9e06-f17a-4203-b266-ff63a4d567a8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d814f5bb98ab4afaf1d6d81874b14f26.jpg" xmlns="">0AHi79VvCMkKnh5KH1WG0yQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

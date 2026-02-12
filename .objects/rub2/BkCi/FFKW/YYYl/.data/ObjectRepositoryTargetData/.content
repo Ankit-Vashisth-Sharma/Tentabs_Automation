@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LtUrJlNtqky1BfEVb1egBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/products/omron-hv-f013" CVScreenId="2a9c5439-e686-48c8-b182-06b4a4710bb8" CvElementArea="943, 518, 177, 44" CvTextArea="996, 533, 96, 13" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="998, 533, 93, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentname='add' tag='SPAN' type='' class='t4s-btn-atc_text' aaname='Add to cart' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADD TO CART' /&gt;" Guid="bda45060-ce6b-41fb-903e-476a2ecc2b06" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Omron Massager HV-F013 Online at Best Price - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2a9c5439-e686-48c8-b182-06b4a4710bb8" CvElementArea="943, 518, 177, 44" CvTextArea="996, 533, 96, 13" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="946, 520, 171, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='t4s-product-form__submit t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-color-primary t4s-w-100 t4s-justify-content-center t4s-btn-effect-sweep-to-top t4s-btn-loading__svg' aaname='Add to cart                                                            ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADD TO CART' /&gt;" Guid="294dd399-7728-4073-b7c9-4f55aab0dca3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc4956a1b8c0c33a6b57a23fdfc32767.jpg" xmlns="">0qtbhyw6-okCb-ByoHz1sBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

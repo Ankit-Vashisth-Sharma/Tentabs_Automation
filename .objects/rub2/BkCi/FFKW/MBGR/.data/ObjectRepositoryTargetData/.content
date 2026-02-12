@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nRR3XFy5YEy55v3lyz0zbw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" CVScreenId="cb325276-5b21-423f-8f1f-17d94352627f" CvElementArea="1468, 121, 29, 29" CvType="Icon" DesignTimeRectangle="1462, 124, 40, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='shopify-section-header-inline' tag='DIV' /&gt;" Guid="b4aaaf35-5933-4981-8416-e73116f5c04d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAcCAYAAAAa/l2sAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFOSURBVFhHY/g/xAADusBgB6MOpjWguoOXbjvyP79rIRiD2NQGVHPwjQfP/ptGV/+Xds36H187DYxBbJAYSI5agGoOBjkM5Mjff/7AxUBskBhIjlqAKg4GRT0oNJEdCwMgMZActZIHVRwMSq+gkMQFQHIgNdQAI9PBQy5JgMCQynQgMOSKNRgYMhUHvcDIcvC/f//+7z5x6f+Epdv/N85YgxeD1Ow5cRmshxJAtoOfvnr33y6p8b+Kb/7/zNa5GA5Ex7kd8/+bxdT8d0ptBuslF5DlYFAogRwbUzXl//efv9Cl8YL5Gw/8d0lvRRcmGpDl4C2Hzv1X8Mwl2bEgAPIsKFZ2HruILkUUIMvBddNW/Q8p6UcXJhoEF/f9b5q1Fl2YKECWg9ObZ//PaJmDLkw0oET/yHAwqHjad+oKujDRgBL9ZDl4IMGog2kNhpyDAZVlpEBlCiRtAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="605320973c1674eba72773d52ae8b701.jpg" xmlns="">0uu5Tk8t9s06DflrbkfXe5A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

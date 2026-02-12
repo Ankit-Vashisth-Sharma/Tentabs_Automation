@@ -1,0 +1,14 @@
+﻿{
+  "Name": "MARWA MANIPULATOR",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ypypPJ0YKUmAT29duxPLmA",
+  "Reference": "1rDoub721k--2X_7iq-QCA/ypypPJ0YKUmAT29duxPLmA",
+  "ParentRef": "1rDoub721k--2X_7iq-QCA/FFKWyX3wGEGcnLMxoYR-6w",
+  "Created": "2026-02-11T12:49:28.6725973Z",
+  "Updated": "2026-02-11T12:49:28.6725973Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

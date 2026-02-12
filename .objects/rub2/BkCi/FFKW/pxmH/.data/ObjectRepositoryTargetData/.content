@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hUavlqXsDkuuEcVZIZ5v2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" DesignTimeRectangle="1288, 392, 80, 80" ElementType="Icon" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='MARWA MANIPULATOR' tag='IMG' type='' class='lazyautosizes ls-is-cached lazyloadt4sed' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="340d265f-c39e-4712-8c67-2be24c0407e5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6e447f77-dfdd-44a2-9122-b487fe26dffe" CvTextArea="1377, 393, 157, 13" CvTextArgument="MARWA MANIPULATOR" CvType="Text" DesignTimeRectangle="1378, 392, 210, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='MARWA MANIPULATOR' href='/products/marwa-manipulator?_pos=1&amp;amp;_psq=marw&amp;amp;_ss=e&amp;amp;_v=1.0' tag='A' type='' class='t4s-d-block t4s-widget__pr-title' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:href='fuzzy' fuzzylevel:href='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='MARWA MANIPULATOR' /&gt;" Guid="43450562-0f40-4295-95f7-84f21b11b7c5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f3909788ce200e297f8e87ea940d19ad.jpg" xmlns="">0rB6rOczHV0OKmFBfpoCt2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

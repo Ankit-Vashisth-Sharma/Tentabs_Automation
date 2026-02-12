@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_Bfe5HKml0aUgd8Fe-E8xQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in/products/marwa-manipulator" CVScreenId="131dcfcd-e808-4255-8b8b-efd4ae66c179" DesignTimeRectangle="1558, 150, 50, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Close Cart' tag='BUTTON' /&gt;" Guid="da807d98-e921-44ff-804e-2a1be889e278" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy MARWA MANIPULATOR Online at Best Price - TenTabs' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3af7b386a0715ef4a5176031d6c69ee4.jpg" xmlns="">02vzik8UnyUCTWGGjvL2j_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
